@@ -49,8 +49,8 @@ togglePassword.addEventListener('click', () => {
   const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
   passwordInput.setAttribute('type', type);
 
-  // // Optional: Change icon
-  // togglePassword.textContent = type === 'password' ? '👁️' : '🙈';
+  // Optional: Change icon
+  togglePassword.textContent = type === 'password' ? '👁️' : '🙈';
 });
 
 // Form validation
@@ -83,6 +83,11 @@ form.addEventListener('submit', (e) => {
 
   // You can now send the data to backend or simulate login
   alert('Sign in successful (validation passed)');
+
+  // if all checks pass, redirect to CRM Dashboard
+window.location.href = "index.html";
 });
+
+
   </script>
   </html>

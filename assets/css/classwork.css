@@ -421,4 +421,30 @@ color: #252525;
   color: orange;
 
 }
+/* Responsive layout */
+@media(max-width : 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .sidebar .nav-item {
+    display: flex;
+    gap: 20px;
+  }
+  .sidebar .nav-list a {
+    border-bottom: none;
+    padding: 0;
+  }
+  .main-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+}
 

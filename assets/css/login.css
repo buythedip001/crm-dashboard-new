@@ -145,3 +145,17 @@ input[type="password"] {
   font-size: 14px;
   color: #0a8cdd;
 }
+/* Responsive for small screen */
+@media (max-width:400px) {
+  .card {
+    padding: 20px;
+  }
+  .card h2 {
+    font-size: 20px;
+  }
+  input, 
+  .btn-primary,
+  .btn-google {
+    font-size: 14px;
+  }
+}
