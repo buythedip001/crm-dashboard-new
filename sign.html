@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/sign.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="container">
+    <form class="signup-form">
+      <h2>Sign up</h2>
+
+      <div class="name-fields">
+        <div class="input-group">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" placeholder="Enter your first name">
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name" placeholder="Enter your last name">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email address">
+      </div>
+
+      <div class="input-group">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+      </div>
+
+      <div class="input-group password-group">
+        <label for="password">Create password</label>
+        <input type="password" id="password" placeholder="Create your password">
+        <span class="eye-icon">&#128065;</span>
+      </div>
+
+      <div class="input-group password-group">
+        <label for="confirm-password">Confirm password</label>
+        <input type="password" id="confirm-password" placeholder="Confirm your password">
+        <span class="eye-icon">&#128065;</span>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree to <span class="link">terms and condition</span></label>
+      </div>
+
+     <button type="submit" class="btn-primary">Sign in</button>
+
+      <div class="divider">OR</div>
+
+      <button type="button" class="btn-google">
+        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo" />
+        Continue with Google
+      </button>
+    </form>
+  </div>
+</body>
+</html>
